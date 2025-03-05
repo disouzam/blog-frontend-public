@@ -61,3 +61,18 @@ export default tseslint.config({
   },
 })
 ```
+
+# Deployment
+
+The build and deploy is done via GitHub Actions configured to use resources in Azure - starting with a free App Service Plan that might be enough for this initial stage of this personal project.
+
+Almost everything went fine after the adjustments made in commits [***Commit 2a1d197***: Minor adjustments in zipping step to only add to zip file the files under folder `dist`](https://github.com/disouzam/blog-frontend/commit/2a1d197befca710ea6ada493abb38e9829226fb8) and [***Commit 81f7211***: Modified folder that will be deployed](https://github.com/disouzam/blog-frontend/commit/81f7211610bef3818b38f088406ef141922bcaac) but there was a detail that I missed / didn't know since I develop in Windows and the app service runs on Linux: it is required to add a special command on startup of App Service. 
+
+```shell
+pm2 serve /home/site/wwwroot --no-daemon
+```
+
+These two blog posts detail the reason for this command:
+
+- [Como usar PM2 com Node.js em Produção *by Daniel Castro*](https://danieldcs.com/como-usar-pm2-com-node-js-em-producao/)
+- [How to deploy a Vite React app to Azure App Service using CI/CD Pipelines(GitHub Actions) *by Jane's Front-end Diary*](https://medium.com/@janesfrontenddiary/how-to-deploy-a-vite-react-app-to-azure-app-service-using-ci-cd-pipelines-github-actions-1cee30d49ab0)
