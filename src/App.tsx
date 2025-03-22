@@ -1,7 +1,9 @@
+import './App.css';
+
 function App() {
   return (
     <>
-      <div>Website in construction</div>
+      <div className="banner-content">Website in construction</div>
       <footer>
         <p>© 2025 Dickson Souza</p>
         <p>
