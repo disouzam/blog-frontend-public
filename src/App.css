@@ -1,0 +1,26 @@
+.banner-content {
+
+    font-size: 5em;
+    color: black;
+    padding: 0px;
+    height: 100%;
+}
+
+.work-in-progress-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.work-in-progress-icon > img {
+    height: 100px;
+}
+
+footer {
+    font-size: 0.75em;
+    justify-items: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 20px;
+}
