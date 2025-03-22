@@ -15,21 +15,31 @@ function App() {
         <p>Website in construction</p>
       </div>
       <footer>
-        <p>© 2025 Dickson Souza</p>
+        <p>
+          Developed by Dickson Souza @2025 | &nbsp;
+          <a
+            href="https://www.linkedin.com/in/disouzam"
+            target="_blank"
+            rel="noopener"
+          >
+            LinkedIn profile
+          </a>
+          &nbsp;|&nbsp;
+          <a
+            href="https://github.com/disouzam"
+            target="_blank"
+            rel="noopener"
+          >
+            GitHub profile
+          </a>
+        </p>
+
         <p>
           <a
             href="https://www.flaticon.com/free-icons/under-construction"
             title="under-construction icons"
           >
             Under-construction icons created by Freepik - Flaticon
-          </a>
-        </p>
-        <p>
-          <a
-            href="https://www.flaticon.com/free-icons/excavation"
-            title="excavation icons"
-          >
-            Excavation icons created by IconBaandar - Flaticon
           </a>
         </p>
       </footer>
