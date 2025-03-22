@@ -1,9 +1,19 @@
-import './App.css';
+import "./App.css";
 
 function App() {
+  const workInProgressIcon = "./work-in-progress-color.png";
+
   return (
     <>
-      <div className="banner-content">Website in construction</div>
+      <div className="banner-content">
+        <p className="work-in-progress-icon">
+          <img
+            src={workInProgressIcon}
+            alt="Icon of a board saying Work in progress"
+          ></img>
+        </p>
+        <p>Website in construction</p>
+      </div>
       <footer>
         <p>© 2025 Dickson Souza</p>
         <p>

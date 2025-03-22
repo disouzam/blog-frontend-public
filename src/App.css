@@ -1,8 +1,18 @@
 .banner-content {
+
     font-size: 5em;
-    color: red;
-    padding: 160px;
+    color: black;
+    padding: 0px;
     height: 100%;
+}
+
+.work-in-progress-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.work-in-progress-icon > img {
+    height: 100px;
 }
 
 footer {
