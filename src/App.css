@@ -1,9 +1,28 @@
 .banner-content {
-
-    font-size: 5em;
+    justify-items: left;
+    font-size: 0.9em;
+    font-weight: bold;
+    font-style: italic;
     color: black;
     padding: 0px;
     height: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.about-content {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+}
+
+.about-content > h1 {
+    text-align: right;
+    font-size: 1.3em;
+}
+
+.about-content > p {
+    text-align: justify;
 }
 
 .work-in-progress-icon {
@@ -12,15 +31,20 @@
 }
 
 .work-in-progress-icon > img {
-    height: 100px;
+    height: 70px;
 }
 
 footer {
-    font-size: 0.75em;
+    font-size: 0.70em;
     justify-items: center;
+    background-color: lightgray;
     position: fixed;
     bottom: 0px;
     left: 0px;
     right: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-icon-attribution {
+    font-size: 0.65em;
 }

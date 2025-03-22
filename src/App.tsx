@@ -1,4 +1,5 @@
 import "./App.css";
+import About from "./components/About";
 import Footer from "./components/Footer";
 
 function App() {
@@ -13,8 +14,9 @@ function App() {
             alt="Icon of a board saying Work in progress"
           ></img>
         </p>
-        <p>Website in construction</p>
+        <p><u>Website in construction</u></p>
       </div>
+      <About />
       <Footer />
     </>
   );

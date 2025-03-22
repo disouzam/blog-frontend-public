@@ -20,7 +20,7 @@ function Footer() {
           </a>
         </p>
 
-        <p>
+        <p className="footer-icon-attribution">
           <a
             href="https://www.flaticon.com/free-icons/under-construction"
             title="under-construction icons"
