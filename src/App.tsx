@@ -1,6 +1,7 @@
-import "./App.css";
 import About from "./components/About";
 import Footer from "./components/Footer";
+
+// import "./App.css";
 
 function App() {
   const workInProgressIcon = "./work-in-progress-color.png";
