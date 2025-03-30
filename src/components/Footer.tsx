@@ -26,11 +26,6 @@ function Footer() {
       </p>
     </footer>
   );
-  // return (
-  //     <footer>
-
-  //   </footer>
-  // );
 }
 
 export default Footer;
