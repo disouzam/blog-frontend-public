@@ -1,8 +1,15 @@
 import About from "./components/About";
 import Footer from "./components/Footer";
 
+import Clarity from '@microsoft/clarity';
+
 function App() {
   const workInProgressIcon = "./work-in-progress-color.png";
+
+  // Make sure to add your actual project id instead of "yourProjectId".
+  const projectId = "qwk7whav75"
+
+  Clarity.init(projectId);
 
   return (
     <>
