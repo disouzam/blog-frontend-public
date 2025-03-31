@@ -1,4 +1,3 @@
-import "./App.css";
 import About from "./components/About";
 import Footer from "./components/Footer";
 
@@ -7,17 +6,21 @@ function App() {
 
   return (
     <>
-      <div className="banner-content">
-        <p className="work-in-progress-icon">
+      <main className="container">
+        <div className="text-center">
           <img
             src={workInProgressIcon}
+            className="rounded"
+            height="100px"
             alt="Icon of a board saying Work in progress"
-          ></img>
-        </p>
-        <p><u>Website in construction</u></p>
-      </div>
-      <About />
-      <Footer />
+          />
+          <p>
+            <u>Website in construction</u>
+          </p>
+        </div>
+        <About />
+        <Footer />
+      </main>
     </>
   );
 }
