@@ -5,7 +5,13 @@ function ScrapBucketOptimization() {
         Scrap Bucket Optimization
       </h2>
       <p className="text-center">
-        Optimize your scrap bucket for better performance!
+        <a
+          href="https://colab.research.google.com/github/disouzam/ortools-tutorial/blob/colab-changes/eaf-steelmaking-optimization/eaf_optimization_undergrad_exercise.ipynb"
+          target="_blank"
+          rel="noopener"
+        >
+          Optimization of scrap bucket charging in an EAF (undergrad exercise)!
+        </a>
       </p>
     </div>
   );
