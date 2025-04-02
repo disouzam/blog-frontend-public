@@ -1,8 +1,12 @@
 function ScrapBucketOptimization() {
   return (
-    <div>
-      <h1>Scrap Bucket Optimization</h1>
-      <p>Optimize your scrap bucket for better performance!</p>
+    <div className="text-center">
+      <h2 className="display-1 link-body-emphasis mb-1">
+        Scrap Bucket Optimization
+      </h2>
+      <p className="text-center">
+        Optimize your scrap bucket for better performance!
+      </p>
     </div>
   );
 }
