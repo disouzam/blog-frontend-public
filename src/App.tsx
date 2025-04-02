@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 
 import Clarity from "@microsoft/clarity";
 import Header from "./components/Header";
+import NavBar from "./components/NavBar";
 
 function App() {
   const workInProgressIcon = "./work-in-progress-color.png";
@@ -16,6 +17,7 @@ function App() {
     <>
       <main className="container">
         <Header />
+        <NavBar />
         <div className="text-center">
           <img
             src={workInProgressIcon}
