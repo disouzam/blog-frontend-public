@@ -5,7 +5,10 @@ function NavBar() {
         <a className="nav-item nav-link link-body-emphasis active" href="#">
           Technology
         </a>
-        <a className="nav-item nav-link link-body-emphasis" href="#">
+        <a
+          className="nav-item nav-link link-body-emphasis"
+          href="/scrap-bucket-optimization"
+        >
           Metallurgy
         </a>
         <a className="nav-item nav-link link-body-emphasis" href="#">
