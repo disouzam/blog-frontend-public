@@ -1,19 +1,21 @@
 import About from "./components/About";
 import Footer from "./components/Footer";
 
-import Clarity from '@microsoft/clarity';
+import Clarity from "@microsoft/clarity";
+import Header from "./components/Header";
 
 function App() {
   const workInProgressIcon = "./work-in-progress-color.png";
 
   // Make sure to add your actual project id instead of "yourProjectId".
-  const projectId = "qwk7whav75"
+  const projectId = "qwk7whav75";
 
   Clarity.init(projectId);
 
   return (
     <>
       <main className="container">
+        <Header />
         <div className="text-center">
           <img
             src={workInProgressIcon}
