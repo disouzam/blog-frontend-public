@@ -1,0 +1,6 @@
+{
+    "editor.trimAutoWhitespace": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.renderControlCharacters": false,
+    "editor.formatOnSave": true
+}
