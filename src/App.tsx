@@ -12,11 +12,11 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Main />} />
       <Route
         path="/scrap-bucket-optimization"
         element={<ScrapBucketOptimization />}
       />
+      <Route path="/" element={<Main />} />
     </Routes>
   );
 }

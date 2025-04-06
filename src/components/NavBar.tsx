@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function NavBar() {
   return (
     <div className="nav-scroller py-1 mb-3 border-bottom">
@@ -5,12 +7,12 @@ function NavBar() {
         <a className="nav-item nav-link link-body-emphasis active" href="#">
           Technology
         </a>
-        <a
+        <Link
           className="nav-item nav-link link-body-emphasis"
-          href="/scrap-bucket-optimization"
+          to="/scrap-bucket-optimization"
         >
           Metallurgy
-        </a>
+        </Link>
         <a className="nav-item nav-link link-body-emphasis" href="#">
           Photography
         </a>
