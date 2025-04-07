@@ -19,6 +19,11 @@ function Technology() {
           <u>Website in construction</u>
         </p>
       </div>
+      <div className="text-center">
+        <h2 className="display-4 link-body-emphasis mb-5">
+          Here you will find content about technology
+        </h2>
+      </div>
       <Footer />
     </main>
   );

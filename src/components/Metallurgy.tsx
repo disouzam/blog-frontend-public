@@ -20,10 +20,11 @@ function Metallurgy() {
         </p>
       </div>
       <div className="text-center">
+        <h2 className="display-1 link-body-emphasis mb-1">Comming soon...</h2>
         <h2 className="display-1 link-body-emphasis mb-1">
           Scrap Bucket Optimization
         </h2>
-        <p className="text-center">
+        <h3 className="text-center mb-5">
           <a
             href="https://colab.research.google.com/github/disouzam/ortools-tutorial/blob/colab-changes/eaf-steelmaking-optimization/eaf_optimization_undergrad_exercise.ipynb"
             target="_blank"
@@ -32,7 +33,7 @@ function Metallurgy() {
             Optimization of scrap bucket charging in an EAF (undergrad
             exercise)!
           </a>
-        </p>
+        </h3>
       </div>
       <Footer />
     </main>
