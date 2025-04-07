@@ -1,4 +1,4 @@
-function ScrapBucketOptimization() {
+function Metallurgy() {
   return (
     <div className="text-center">
       <h2 className="display-1 link-body-emphasis mb-1">
@@ -17,4 +17,4 @@ function ScrapBucketOptimization() {
   );
 }
 
-export default ScrapBucketOptimization;
+export default Metallurgy;

@@ -2,7 +2,7 @@ import Clarity from "@microsoft/clarity";
 import { Route, Routes } from "react-router-dom";
 
 import Main from "./components/Main";
-import ScrapBucketOptimization from "./components/ScrapBucketOptimization";
+import Metallurgy from "./components/Metallurgy";
 
 function App() {
   // Make sure to add your actual project id instead of "yourProjectId".
@@ -12,11 +12,8 @@ function App() {
 
   return (
     <Routes>
-      <Route
-        path="/scrap-bucket-optimization"
-        element={<ScrapBucketOptimization />}
-      />
       <Route path="/" element={<Main />} />
+      <Route path="/metallurgy" element={<Metallurgy />} />
     </Routes>
   );
 }
