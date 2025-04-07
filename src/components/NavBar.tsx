@@ -4,6 +4,9 @@ function NavBar() {
   return (
     <div className="nav-scroller py-1 mb-3 border-bottom">
       <nav className="nav nav-underline justify-content-between">
+        <Link className="nav-item nav-link link-body-emphasis" to="/">
+          Home
+        </Link>
         <Link className="nav-item nav-link link-body-emphasis" to="/technology">
           Technology
         </Link>
