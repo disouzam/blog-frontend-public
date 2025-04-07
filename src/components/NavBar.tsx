@@ -4,21 +4,27 @@ function NavBar() {
   return (
     <div className="nav-scroller py-1 mb-3 border-bottom">
       <nav className="nav nav-underline justify-content-between">
-        <a className="nav-item nav-link link-body-emphasis active" href="#">
+        <Link className="nav-item nav-link link-body-emphasis" to="/">
+          Home
+        </Link>
+        <Link className="nav-item nav-link link-body-emphasis" to="/technology">
           Technology
-        </a>
+        </Link>
         <Link
-          className="nav-item nav-link link-body-emphasis"
-          to="/scrap-bucket-optimization"
+          className="nav-item nav-link link-body-emphasis active"
+          to="/metallurgy"
         >
           Metallurgy
         </Link>
-        <a className="nav-item nav-link link-body-emphasis" href="#">
+        <Link
+          className="nav-item nav-link link-body-emphasis"
+          to="/photography"
+        >
           Photography
-        </a>
-        <a className="nav-item nav-link link-body-emphasis" href="#">
+        </Link>
+        <Link className="nav-item nav-link link-body-emphasis" to="/cycling">
           Cycling
-        </a>
+        </Link>
       </nav>
     </div>
   );
