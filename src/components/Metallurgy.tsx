@@ -20,8 +20,8 @@ function Metallurgy() {
         </p>
       </div>
       <div className="text-center">
-        <h2 className="display-1 link-body-emphasis mb-1">Comming soon...</h2>
-        <h2 className="display-1 link-body-emphasis mb-1">
+        <h2 className="display-1 link-body-emphasis mb-5">Coming soon...</h2>
+        <h2 className="display-1 mb-3" style={{ color: "red" }}>
           Scrap Bucket Optimization
         </h2>
         <h3 className="text-center mb-5">
